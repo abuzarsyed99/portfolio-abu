@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  line-height: 1.4;
+  font-family: "roboto", sans-serif;
+  font-weight: 300;
+}
+.herosection {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPy0-SrTNO-1djHO8g3M05vOTfV9RJQ1qOhg&s");
+  min-height: 100vh;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.textcontainer {
+  max-width: 900px;
+  color: white;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-left: 45px;
+}
+.b {
+  font-size: 52px;
+}
+.black {
+  min-width: 100vh;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  /* padding-bottom: 30px; */
+}
+.c {
+  font-size: 40px;
+}
+.section3 {
+  min-width: 100vh;
+  justify-items: center;
+  /* line-height: 1.4px; */
+  padding: 20px;
+}
+.section3 {
+}
+.maindiv {
+  display: flex;
+}
+.div1,
+.div2,
+.div3:hover {
+}
+.div1 {
+  margin-right: 6px;
+  border: 10px solid white;
+  text-align: justify;
+  box-shadow: 21px 24px 43px rgba(1, 2, 3, 0.1);
+  border-radius: 19px;
+}
+.div2 {
+  margin-left: 1px;
+  margin-right: 10px;
+  border: 5px solid white;
+  text-align: justify;
+  box-shadow: 21px 24px 43px rgba(1, 2, 3, 0.1);
+  border-radius: 9px;
+}
+.div3 {
+  margin-left: 10px;
+  border: 5px solid white;
+  text-align: justify;
+  box-shadow: 21px 24px 43px rgba(1, 2, 3, 0.1);
+  margin-right: 10px;
+  border-radius: 19px;
+}
+.footdiv {
+  color: blue;
+  background-color: beige;
+  text-align: center;
+}
